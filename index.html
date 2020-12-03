@@ -26,12 +26,33 @@
           </div>
 
           <div class="form-container mb">
-            <form action="" class="form">
-              <input type="text" name="firstName" placeholder="First Name" class="input mb">
-              <input type="text" name="lastName" placeholder="Last Name" class="input mb">
-              <input type="text" name="email" placeholder="Email Address" class="input mb">
-              <input type="password" name="password" placeholder="Password" class="input mb">
-              <button type="submit" name="submit" class="btn uppercase shadow mb">claim your free trial</button>
+            <form action="" class="form" id="form">
+              <div class="form-control mb">
+                <input type="text" name="firstName" placeholder="First Name" class="input" id="firstname">
+                <img src="./imgs/icon-error.svg" alt="error image" class="hidden">
+              </div>
+              <small class="err-message hidden">error message</small> 
+
+              <div class="form-control mb">
+                <input type="text" name="lastName" placeholder="Last Name" class="input" id="lastname">
+                <img src="./imgs/icon-error.svg" alt="error image" class="hidden">
+              </div>
+              <small class="err-message hidden">error message</small> 
+
+              <div class="form-control mb">
+                <input type="email" name="email" placeholder="Email Address" class="input" id="email">
+                <img src="./imgs/icon-error.svg" alt="error image" class="hidden">
+              </div>
+              <small class="err-message hidden">error message</small> 
+
+              <div class="form-control mb">
+                <input type="password" name="password" placeholder="Password" class="input" id="password">
+                <img src="./imgs/icon-error.svg" alt="error image" class="hidden">
+              </div>
+              <small class="err-message hidden">error message</small> 
+               
+              <button type="submit" name="submit" class="btn uppercase shadow mb" id="btn">claim your free trial</button>
+
               <small class="thin gray-text">By clicking the button you are agreeing to our <span class="red-text">Terms and Services</span></small>
             </form>
           </div>
@@ -42,5 +63,6 @@
 
     </div>
   </main>
+  <script src="app.js "></script>
 </body>
 </html>
