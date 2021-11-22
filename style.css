@@ -37,11 +37,14 @@ h1 {
   padding-right: 3rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Utilities */
 .offscreen {
   position: absolute;
   left: -10000px;
-  color: black;
 }
 .container {
   width: 90%;
